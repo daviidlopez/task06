@@ -1,0 +1,75 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:orientation="vertical">
+    <TableRow>
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@color/purple"
+            android:paddingLeft="15dp"
+            android:text="EjercicioAndroid2"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="25dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/circulo"
+            android:layout_margin="16dp"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Nombre" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="EDIT PROFILE"
+            android:layout_span="5"
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Followers" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Following" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Estrellita" />
+    </TableRow>
+
+</TableLayout>
